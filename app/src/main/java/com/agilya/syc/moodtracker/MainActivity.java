@@ -19,18 +19,9 @@ public class MainActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //liste des fragments à faire défiler
-        List fragments = new Vector();
 
-        // ajout des fragments
-        fragments.add(Fragment.instantiate(this, PageGaucheFragment.class.getName()));
-        fragments.add(Fragment.instantiate(this, PageMilieuFragment.class.getName()));
-        fragments.add(Fragment.instantiate(this, PageDroiteFragment.class.getName()));
 
-        this.mPagerAdapter = new MyPagerAdapter(getSupportFragmentManager(), fragments);
-        ViewPager pager = (ViewPager) findViewById(R.id.pagerprincipal);
 
-        pager.setAdapter(this.mPagerAdapter);
-
+        
     }
 }
