@@ -1,8 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/accueilid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
 
-<android.support.v4.view.ViewPager
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:id="@+id/pagerprincipal">
-</android.support.v4.view.ViewPager>
+    <TextView
+        android:id="@+id/d_g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hg_bd"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="-255dp"
+        android:baselineAligned="false"
+        android:text="D->G" />
+
+    <TextView
+        android:id="@+id/g_d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="234dp"
+        android:text="G->D" />
+
+    <TextView
+        android:id="@+id/h_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/hd_bg"
+        android:layout_centerHorizontal="true"
+        android:text="H->B" />
+
+    <TextView
+        android:id="@+id/b_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:text="B->H" />
+
+
+    <TextView
+        android:id="@+id/hd_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/db_hg"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:text="hd_bg" />
+
+    <TextView
+        android:id="@+id/bg_hd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="476dp"
+        android:text="bg_hd" />
+
+    <TextView
+        android:id="@+id/hg_bd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="326dp"
+        android:text="hg_bd" />
+
+    <TextView
+        android:id="@+id/db_hg"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="478dp"
+        android:layout_marginEnd="12dp"
+        android:text="db_hg" />
+
+
+    <TextView
+        android:id="@+id/tvSwipDescription"
+        android:gravity="center"
+        android:text="@string/tvswipDescription"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TextView>
+</RelativeLayout>
+
+
+

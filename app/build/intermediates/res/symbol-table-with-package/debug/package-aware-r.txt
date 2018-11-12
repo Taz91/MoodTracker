@@ -651,6 +651,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id accueilid
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -675,8 +676,10 @@ id alertTitle
 id all
 id always
 id async
+id b_h
 id barrier
 id beginning
+id bg_hd
 id blocking
 id bottom
 id buttonPanel
@@ -692,6 +695,8 @@ id collapseActionView
 id contentPanel
 id custom
 id customPanel
+id d_g
+id db_hg
 id decor_content_parent
 id default_activity_button
 id dimensions
@@ -705,8 +710,12 @@ id fill
 id fill_horizontal
 id fill_vertical
 id forever
+id g_d
 id gone
 id groups
+id h_b
+id hd_bg
+id hg_bd
 id home
 id homeAsUp
 id icon
@@ -731,7 +740,6 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id packed
-id pagerprincipal
 id parent
 id parentPanel
 id percent
@@ -783,6 +791,7 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id tvSwipDescription
 id uniform
 id up
 id useLogo
@@ -869,6 +878,11 @@ string abc_toolbar_collapse_description
 string app_name
 string search_menu_title
 string status_bar_notification_info_overflow
+string toastBottom
+string toastLeft
+string toastRight
+string toastTop
+string tvswipDescription
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
