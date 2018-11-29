@@ -32,6 +32,14 @@ public class OnSwipeTouchListener implements View.OnTouchListener {
         public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
             boolean result = false;
             try {
+                    String mvte1 = stringValue(e1);
+                    String mvte2 = stringValue(e2);
+                    float Xe1 = e1.getX();
+                    float Xe2 = e1.getX();
+                    float Ye1 = e1.getY();
+                    float Ye2 = e1.getY();
+                    //onSwipe( mvte1, mvte2, Xe1, Ye1, Xe2, Ye2);
+
                 float diffY = e2.getY() - e1.getY();
                 float diffX = e2.getX() - e1.getX();
                 if (Math.abs(diffX) > Math.abs(diffY)) {
@@ -52,12 +60,29 @@ public class OnSwipeTouchListener implements View.OnTouchListener {
                     }
                     result = true;
                 }
+
             } catch (Exception exception) {
                 exception.printStackTrace();
             }
             return result;
         }
     }
+
+    private String stringValue(MotionEvent event) {
+        final int action = event.getAction();
+        switch (action) {
+            case MotionEvent.ACTION_DOWN:
+                return "ACTION_DOWN";
+            case MotionEvent.ACTION_MOVE:
+                return "ACTION_MOVE";
+            case MotionEvent.ACTION_UP:
+                return "ACTION_UP";
+            case MotionEvent.ACTION_CANCEL:
+                return "ACTION_CANCEL";
+        }
+        return "";
+    }
+
 
     public void onSwipeRight() {
     }
@@ -70,4 +95,12 @@ public class OnSwipeTouchListener implements View.OnTouchListener {
 
     public void onSwipeBottom() {
     }
+
+    public void onSwipe(String mvte1, String mvte2, float xe1, float ye1, float xe2, float ye2) {
+
+    }
+
+
+
+
 }

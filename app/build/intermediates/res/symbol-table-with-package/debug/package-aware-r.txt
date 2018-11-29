@@ -682,6 +682,7 @@ id beginning
 id bg_hd
 id blocking
 id bottom
+id button
 id buttonPanel
 id center
 id center_horizontal
@@ -722,6 +723,7 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageHumeur
 id info
 id invisible
 id italic
