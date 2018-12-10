@@ -2,126 +2,34 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/accueilid"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/d_g"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/hg_bd"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="-255dp"
-        android:baselineAligned="false"
-        android:text="D->G" />
-
-    <TextView
-        android:id="@+id/g_d"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="234dp"
-        android:text="G->D" />
-
-    <TextView
-        android:id="@+id/h_b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/hd_bg"
-        android:layout_centerHorizontal="true"
-        android:text="H->B" />
-
-    <TextView
-        android:id="@+id/b_h"
+    <ImageButton
+        android:id="@+id/btnHistory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="13dp"
-        android:text="B->H" />
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="15dp"
+        android:src="@mipmap/ic_history_black" />
 
-
-    <TextView
-        android:id="@+id/hd_bg"
+    <ImageButton
+        android:id="@+id/btnComment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/db_hg"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="14dp"
-        android:text="hd_bg" />
-
-    <TextView
-        android:id="@+id/bg_hd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginBottom="13dp"
-        android:text="bg_hd" />
-
-    <TextView
-        android:id="@+id/hg_bd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="326dp"
-        android:text="hg_bd" />
-
-    <TextView
-        android:id="@+id/db_hg"
-        android:layout_width="52dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="320dp"
-        android:layout_marginTop="478dp"
-        android:layout_marginEnd="12dp"
-        android:text="db_hg" />
-
-
-    <TextView
-        android:id="@+id/tvSwipDescription"
-        android:layout_width="282dp"
-        android:layout_height="409dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="53dp"
-        android:layout_marginRight="12dp"
-        android:layout_marginBottom="49dp"
-        android:background="@color/warm_grey"
-        android:gravity="center"
-        android:text="@string/tvswipDescription" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="149dp"
-        android:layout_marginTop="123dp"
-        android:text="Button" />
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:src="@mipmap/ic_note_add_black" />
 
     <ImageView
         android:id="@+id/imageHumeur"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/h_b"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="-97dp"
-        android:layout_marginBottom="61dp"
+        android:layout_centerInParent="true"
         app:srcCompat="@drawable/smiley_super_happy" />
+
 </RelativeLayout>
 
 
