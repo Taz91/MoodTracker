@@ -83,24 +83,15 @@ public class OnSwipeTouchListener implements View.OnTouchListener {
         return "";
     }
 
-
     public void onSwipeRight() {
     }
-
     public void onSwipeLeft() {
     }
-
     public void onSwipeTop() {
     }
-
     public void onSwipeBottom() {
     }
-
     public void onSwipe(String mvte1, String mvte2, float xe1, float ye1, float xe2, float ye2) {
 
     }
-
-
-
-
 }

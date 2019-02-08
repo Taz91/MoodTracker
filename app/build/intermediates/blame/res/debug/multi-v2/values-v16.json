@@ -4,7 +4,17 @@
             "outputFile": "C:\\D_SYC\\OC_android\\P3\\Livrable\\MoodTracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\SYC\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\aafaab848161cf50f21a1fbbfa375cbe\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\SYC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\dbf4a06dc3cd3ac15b0661bbe24c2b34\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SYC\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fd0facaf7e80b9f98913d9191f49bc1c\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\SYC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9ce56ef26b309d95e7be374f73eee6e3\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

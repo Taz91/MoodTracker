@@ -4,7 +4,26 @@
             "outputFile": "C:\\D_SYC\\OC_android\\P3\\Livrable\\MoodTracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\SYC\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\aafaab848161cf50f21a1fbbfa375cbe\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\SYC\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\1afe8df480fbc63cf9f0acf657d8a351\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "505"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SYC\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fd0facaf7e80b9f98913d9191f49bc1c\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

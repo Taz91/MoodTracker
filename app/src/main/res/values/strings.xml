@@ -1,8 +1,14 @@
 <resources>
     <string name="app_name">MoodTracker</string>
-    <string name="tvswipDescription">On swip : </string>
+    <string name="tvswipDescription">On swipe : </string>
     <string name="toastLeft">Left Swapping</string>
     <string name="toastRight">Right Swapping</string>
     <string name="toastBottom">Bottom Swapping</string>
     <string name="toastTop">Top Swapping</string>
+    <string name="cbHistoryLabel">Afficher tout</string>
+    <string name="Delete">Supprimer historique</string>
+    <string name="Send">Envoyer au calendrier</string>
+    <string name="showHistory">showHistory</string>
+    <string name="createComment">createComment</string>
+    <string name="moodPicture">moodPicture</string>
 </resources>

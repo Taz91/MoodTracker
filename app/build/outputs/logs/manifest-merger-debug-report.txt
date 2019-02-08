@@ -1,99 +1,131 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:2:1-21:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\aafaab848161cf50f21a1fbbfa375cbe\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b43c4cdd8568811e96e961dbe139eca4\AndroidManifest.xml:2:1-11:12
-MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\eb581aa6107d7762c394ecde17605cfc\AndroidManifest.xml:2:1-7:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\3d1e87f0bb1e078cb890c940a3b59aeb\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\cf5cea179d80117bcf1dafd3d45880d2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\8eb0c7734e6c5421a7764422aa361f4c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\13e7e917e05f2e08e4dcd018604a620d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\1f631ef3dc33fb88c8f3716edc8b3b08\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\9ce56ef26b309d95e7be374f73eee6e3\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\7342e411bcac7d3ac21934ae2acbc5d8\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\339680bb0a5f795e0a671385a25cfd46\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d5332d2dd89d5e0f362961c7a06750d6\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2052a7298a2c64279ef1685edf4f42c4\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [com.karumi:dexter:5.0.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\dexter-5.0.0.aar\273143c5312dfc0983829997ab2e8da9\AndroidManifest.xml:17:1-32:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\1afe8df480fbc63cf9f0acf657d8a351\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fd0facaf7e80b9f98913d9191f49bc1c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\08fb30183a9e02a4a38c68173f23171f\AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\d12bc32181285a29f595a1c0f52a7e8e\AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\13a76d95ead9d2ff4960c6353fa2521d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\35590567f4a5a9eec8bfacef5d0fde1c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\808a49b052751a43b249f5f8329733d4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\ed97841346af2eecec4d9a34dd7b9f6e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\fae7b8301fac30141739c6bcf49c49b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7195e8c5338cdcf6c44879ad14cb7c92\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b7f6b5e072263db98aa11495758ec7bc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\7bd102beb36ad3384d1d5911a887343a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\d2fc16201b3489c8477c86c928fe9f22\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\dbf4a06dc3cd3ac15b0661bbe24c2b34\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\52ae9f31cf56d2b5bd4ac05c19347461\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\e996ba88d33a8a8f7705f108bacd96ee\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\bc5b6d1436a815b6ffe2cac6e922e17b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\97cc227f2fc36b7bcadbd9ea3eb746d7\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml
 		INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml
-		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml
-		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_CALENDAR
+ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:5:5-72
+	android:name
+		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:5:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:6:5-90
+	android:name
+		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:6:22-70
 application
-ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:5:5-19:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b43c4cdd8568811e96e961dbe139eca4\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b43c4cdd8568811e96e961dbe139eca4\AndroidManifest.xml:9:5-20
+ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:9:5-24:19
+MERGED from [com.karumi:dexter:5.0.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\dexter-5.0.0.aar\273143c5312dfc0983829997ab2e8da9\AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:5.0.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\dexter-5.0.0.aar\273143c5312dfc0983829997ab2e8da9\AndroidManifest.xml:26:5-30:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\08fb30183a9e02a4a38c68173f23171f\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\08fb30183a9e02a4a38c68173f23171f\AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:15:9-40
 activity#com.agilya.syc.moodtracker.MainActivity
-ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:16:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:20:27-74
+activity#com.agilya.syc.moodtracker.history.HistoryActivity
+ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:23:9-70
+	android:name
+		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml:23:19-58
 uses-sdk
 INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml
 INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\aafaab848161cf50f21a1fbbfa375cbe\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\aafaab848161cf50f21a1fbbfa375cbe\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b43c4cdd8568811e96e961dbe139eca4\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b43c4cdd8568811e96e961dbe139eca4\AndroidManifest.xml:5:5-7:41
-MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\eb581aa6107d7762c394ecde17605cfc\AndroidManifest.xml:5:5-43
-MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\eb581aa6107d7762c394ecde17605cfc\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\3d1e87f0bb1e078cb890c940a3b59aeb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\3d1e87f0bb1e078cb890c940a3b59aeb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\cf5cea179d80117bcf1dafd3d45880d2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\cf5cea179d80117bcf1dafd3d45880d2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\8eb0c7734e6c5421a7764422aa361f4c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\8eb0c7734e6c5421a7764422aa361f4c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\13e7e917e05f2e08e4dcd018604a620d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\13e7e917e05f2e08e4dcd018604a620d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\1f631ef3dc33fb88c8f3716edc8b3b08\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\1f631ef3dc33fb88c8f3716edc8b3b08\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\9ce56ef26b309d95e7be374f73eee6e3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\9ce56ef26b309d95e7be374f73eee6e3\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\7342e411bcac7d3ac21934ae2acbc5d8\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\7342e411bcac7d3ac21934ae2acbc5d8\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\339680bb0a5f795e0a671385a25cfd46\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\339680bb0a5f795e0a671385a25cfd46\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d5332d2dd89d5e0f362961c7a06750d6\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d5332d2dd89d5e0f362961c7a06750d6\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2052a7298a2c64279ef1685edf4f42c4\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2052a7298a2c64279ef1685edf4f42c4\AndroidManifest.xml:20:5-44
+MERGED from [com.karumi:dexter:5.0.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\dexter-5.0.0.aar\273143c5312dfc0983829997ab2e8da9\AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:5.0.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\dexter-5.0.0.aar\273143c5312dfc0983829997ab2e8da9\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\1afe8df480fbc63cf9f0acf657d8a351\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\1afe8df480fbc63cf9f0acf657d8a351\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fd0facaf7e80b9f98913d9191f49bc1c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fd0facaf7e80b9f98913d9191f49bc1c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\08fb30183a9e02a4a38c68173f23171f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\08fb30183a9e02a4a38c68173f23171f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\d12bc32181285a29f595a1c0f52a7e8e\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\d12bc32181285a29f595a1c0f52a7e8e\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\13a76d95ead9d2ff4960c6353fa2521d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\13a76d95ead9d2ff4960c6353fa2521d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\35590567f4a5a9eec8bfacef5d0fde1c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\35590567f4a5a9eec8bfacef5d0fde1c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\808a49b052751a43b249f5f8329733d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\808a49b052751a43b249f5f8329733d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\ed97841346af2eecec4d9a34dd7b9f6e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\ed97841346af2eecec4d9a34dd7b9f6e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\fae7b8301fac30141739c6bcf49c49b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\fae7b8301fac30141739c6bcf49c49b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7195e8c5338cdcf6c44879ad14cb7c92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7195e8c5338cdcf6c44879ad14cb7c92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b7f6b5e072263db98aa11495758ec7bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b7f6b5e072263db98aa11495758ec7bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\7bd102beb36ad3384d1d5911a887343a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\7bd102beb36ad3384d1d5911a887343a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\d2fc16201b3489c8477c86c928fe9f22\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\d2fc16201b3489c8477c86c928fe9f22\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\dbf4a06dc3cd3ac15b0661bbe24c2b34\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\dbf4a06dc3cd3ac15b0661bbe24c2b34\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\52ae9f31cf56d2b5bd4ac05c19347461\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\52ae9f31cf56d2b5bd4ac05c19347461\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\e996ba88d33a8a8f7705f108bacd96ee\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\e996ba88d33a8a8f7705f108bacd96ee\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\bc5b6d1436a815b6ffe2cac6e922e17b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\bc5b6d1436a815b6ffe2cac6e922e17b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\97cc227f2fc36b7bcadbd9ea3eb746d7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\97cc227f2fc36b7bcadbd9ea3eb746d7\AndroidManifest.xml:20:5-44
 INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml
 INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -104,3 +136,9 @@ INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidMa
 		INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml
 		ADDED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml
 		INJECTED from C:\D_SYC\OC_android\P3\Livrable\MoodTracker\app\src\main\AndroidManifest.xml
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:5.0.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\dexter-5.0.0.aar\273143c5312dfc0983829997ab2e8da9\AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:5.0.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\dexter-5.0.0.aar\273143c5312dfc0983829997ab2e8da9\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:5.0.0] C:\Users\SYC\.gradle\caches\transforms-1\files-1.1\dexter-5.0.0.aar\273143c5312dfc0983829997ab2e8da9\AndroidManifest.xml:28:13-60
