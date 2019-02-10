@@ -207,67 +207,56 @@ public class MainActivity extends AppCompatActivity implements CustomPopupCommen
                 public void onPermissionGranted(PermissionGrantedResponse response) {
                     // permission is granted, continu the traitement
                     if (ActivityCompat.checkSelfPermission(MainActivity.this, WRITE_CALENDAR) == PackageManager.PERMISSION_GRANTED){
+                        String KeyDayCalendar = buildKey();
+                        String KeyDayComment = getComment(KeyDayCalendar);
 
-                        // build request - return data
-                        String[] projection = new String[]{
-                                CalendarContract.Calendars._ID,
-                                CalendarContract.Calendars.NAME,
-                                CalendarContract.Calendars.ACCOUNT_NAME,
-                                CalendarContract.Calendars.ACCOUNT_TYPE
-                        };
-                        // query
-                        cursor = getContentResolver().query(
-                                CalendarContract.Calendars.CONTENT_URI,
-                                projection,
-                                CalendarContract.Calendars.VISIBLE + " = 1",
-                                null,
-                                CalendarContract.Calendars._ID + " ASC"
-                        );
-                        // get id of local calendar
-                        if (cursor.moveToFirst()) {
-                            do {
-                                calID = cursor.getLong(0);
-                                displayName = cursor.getString(1);
-                            } while (cursor.moveToNext());
+                        if ( !"".equals(KeyDayComment)){
+                            // build request - return data
+                            String[] projection = new String[]{
+                                    CalendarContract.Calendars._ID,
+                                    CalendarContract.Calendars.NAME,
+                                    CalendarContract.Calendars.ACCOUNT_NAME,
+                                    CalendarContract.Calendars.ACCOUNT_TYPE
+                            };
+                            // query
+                            cursor = getContentResolver().query(
+                                    CalendarContract.Calendars.CONTENT_URI,
+                                    projection,
+                                    CalendarContract.Calendars.VISIBLE + " = 1",
+                                    null,
+                                    CalendarContract.Calendars._ID + " ASC"
+                            );
+                            // get id of local calendar
+                            if (cursor.moveToFirst()) {
+                                do {
+                                    calID = cursor.getLong(0);
+                                    displayName = cursor.getString(1);
+                                } while (cursor.moveToNext());
+                            }
+                            // build startTime and endTime of insert event
+                            Date timeNow = new Date();
+                            Date hour = new Date(3600*1000);
+                            Date timeEnd = new Date(timeNow.getTime() + hour.getTime());
+
+                            Calendar beginTime = Calendar.getInstance();
+                            beginTime.setTime(timeNow);
+                            Calendar endTime = Calendar.getInstance();
+                            endTime.setTime(timeEnd);
+
+                            // build Event
+                            ContentResolver cr = getContentResolver();
+                            ContentValues values = new ContentValues();
+                            values.put(CalendarContract.Events.DTSTART, beginTime.getTimeInMillis()); // startMillis
+                            values.put(CalendarContract.Events.DTEND, String.valueOf(endTime.getTimeInMillis())); // endMillis
+                            values.put(CalendarContract.Events.TITLE, KeyDayComment );
+                            values.put(CalendarContract.Events.DESCRIPTION, "MoodDay");
+                            values.put(CalendarContract.Events.CALENDAR_ID, calID);
+                            values.put(CalendarContract.Events.EVENT_TIMEZONE, "Europe/Paris"); // America/Los_Angeles
+                            Uri uri = cr.insert(CalendarContract.Events.CONTENT_URI, values);
                         }
-
-
-                        // build request - search
-                        //String selection = CalendarContract.Calendars.ACCOUNT_NAME + " = ? AND " + CalendarContract.Calendars.ACCOUNT_TYPE + " = ? ";
-                        //String[] selArgs = new String[]{ "taz91coc@gmail.com", CalendarContract.ACCOUNT_TYPE_LOCAL};
-
-                        /*
-                        cursor = getContentResolver().query(
-                                CalendarContract.Calendars.CONTENT_URI,
-                                projection,
-                                selection,
-                                selArgs,
-                                null
-                        );
-*/
-
-
-                        //Date beginTimeCalendar = Calendar.getInstance().getTime();
-                        //beginTime.set(2019, 1, 10, 20, 30);
-
-                        Calendar beginTime = Calendar.getInstance();
-                        //beginTime.setTime();
-                        startMillis = beginTime.getTimeInMillis();
-                        Calendar endTime = Calendar.getInstance();
-
-                        endTime.set(2019, 1, 10, 21, 45);
-                        endMillis = endTime.getTimeInMillis();
-
-                        ContentResolver cr = getContentResolver();
-                        ContentValues values = new ContentValues();
-                        values.put(CalendarContract.Events.DTSTART, startMillis);
-                        values.put(CalendarContract.Events.DTEND, endMillis);
-                        values.put(CalendarContract.Events.TITLE, "Test01 insert events in calendar ");
-                        values.put(CalendarContract.Events.DESCRIPTION, "Description events");
-                        values.put(CalendarContract.Events.CALENDAR_ID, calID);
-                        values.put(CalendarContract.Events.EVENT_TIMEZONE, "Europe/Paris"); // America/Los_Angeles
-                        Uri uri = cr.insert(CalendarContract.Events.CONTENT_URI, values);
-
+                        else {
+                            Toast.makeText(MainActivity.this,"Aucun commentaire saisi", Toast.LENGTH_SHORT).show();
+                        }
                     }
                 }
 
@@ -284,51 +273,6 @@ public class MainActivity extends AppCompatActivity implements CustomPopupCommen
                 }
             }).check();
     }
-
-
-    //TODO : A gicler !!
-    private long getCalendarId(){
-        // permission is granted, continu the traitement
-        if (ActivityCompat.checkSelfPermission(MainActivity.this, WRITE_CALENDAR) == PackageManager.PERMISSION_GRANTED){
-            String[] projection = new String[]{
-                    CalendarContract.Calendars._ID,
-                    CalendarContract.Calendars.NAME,
-                    CalendarContract.Calendars.ACCOUNT_NAME,
-                    CalendarContract.Calendars.ACCOUNT_TYPE
-            };
-            cursor = getContentResolver().query(
-                    CalendarContract.Calendars.CONTENT_URI,
-                    projection,
-                    CalendarContract.Calendars.VISIBLE + " = 1",
-                    null,
-                    CalendarContract.Calendars._ID + " ASC");
-            // _ID, NAMe, ACCOUNT_NAME, ACCOUNT_TYPE
-            long calendarId;
-            String displayName;
-            String accountName;
-            String accountType;
-
-            // id / name of calendar : to access
-            if(cursor.moveToFirst()){
-                do {
-                    calendarId = cursor.getLong(0);
-                    displayName = cursor.getString(1);
-                    accountName = cursor.getString(2);
-                    accountType = cursor.getString(3);
-                } while (cursor.moveToNext());
-                // test if a calendar exist :
-                if (calendarId == -1) {
-                    // no calendar account
-                    Toast.makeText(getBaseContext(),"Aucun calendrier existant ! ", Toast.LENGTH_LONG).show();
-                    return -1;
-                } else{
-                    return calendarId;
-                }
-            }
-        }
-        return -1;
-    }
-
 
     /**
      * fct to test the MoodTraker : insert some entry in sharedPreferences
