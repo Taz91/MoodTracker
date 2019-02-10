@@ -15,6 +15,7 @@ import android.provider.CalendarContract;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
@@ -105,11 +106,11 @@ public class MainActivity extends AppCompatActivity implements CustomPopupCommen
          // load sharedPreferences and use for history
         sharedPreferencesHistory = getBaseContext().getSharedPreferences(PREFS_HISTORY, MODE_PRIVATE);
         // ****************************  use when necessary to test some different situation
-        DoHistory();
-        // *********************************************************************************
-
+        //DoHistory();
+        // ***************************************************************************************************
         //set resource for imageview if SharedPreferences(key) if null then by default else img already stored
         applyMoodDay(true);
+
         /**
          * swipe action, use to select moodDay
          */
@@ -138,10 +139,9 @@ public class MainActivity extends AppCompatActivity implements CustomPopupCommen
      */
     @OnClick(R.id.btnComment)
     void loadModifyComment() {
-        //build the key and get comment, to compare with history
+        // build the key and get comment, to compare with history
         final String keyDay = buildKey();
         curentComment = getComment(keyDay);
-
         // setting custom popup, before show.
         modifyCommentPopup = new CustomPopupComment(this);
         modifyCommentPopup.setsTitle("Votre commentaire du : " + keyDay.substring(6, 8) + "/" + keyDay.substring(4, 6) + "/" + keyDay.substring(0, 4));
@@ -173,8 +173,7 @@ public class MainActivity extends AppCompatActivity implements CustomPopupCommen
             @Override
             public void onClick(DialogInterface dialog, int id) {
                 SharedPreferences.Editor editor = sharedPreferencesHistory.edit();
-                editor.clear();
-                editor.commit();
+                editor.clear().commit();
                 //get the current mood to store the first history
                 applyMoodDay(true);
             }
@@ -188,104 +187,106 @@ public class MainActivity extends AppCompatActivity implements CustomPopupCommen
         alerteRemove.show();
     }
 
-
-    //TODO : insert into calendar , tout est à faire !!!
     /**
      * on click, insert mood of day in calendar
      *
      *
      */
     @OnClick(R.id.btnEventInCalendar)
-    void enventInCalendar() {
+    void eventInCalendar() {
         Dexter.withActivity(this)
-                .withPermission(Manifest.permission.WRITE_CALENDAR )
-                .withListener(new PermissionListener() {
-                    @Override
-                    public void onPermissionGranted(PermissionGrantedResponse response) {
-                        // permission is granted, continu the traitement
-                        if (ActivityCompat.checkSelfPermission(MainActivity.this, WRITE_CALENDAR) == PackageManager.PERMISSION_GRANTED){
+            .withPermission(Manifest.permission.WRITE_CALENDAR )
+            .withListener(new PermissionListener() {
 
-                            String selection = CalendarContract.Calendars.ACCOUNT_NAME + " = ? AND " + CalendarContract.Calendars.ACCOUNT_TYPE + " = ? ";
+                long calID; // = 3
+                long startMillis = 0;
+                long endMillis = 0;
+                String displayName;
 
+                @Override
+                public void onPermissionGranted(PermissionGrantedResponse response) {
+                    // permission is granted, continu the traitement
+                    if (ActivityCompat.checkSelfPermission(MainActivity.this, WRITE_CALENDAR) == PackageManager.PERMISSION_GRANTED){
 
-                            String[] projection = new String[]{
-                                    CalendarContract.Calendars._ID,
-                                    CalendarContract.Calendars.NAME,
-                                    CalendarContract.Calendars.ACCOUNT_NAME,
-                                    CalendarContract.Calendars.ACCOUNT_TYPE
-                            };
-                            String[] selArgs =
-                                    new String[]{
-                                            "taz91coc@gmail.com",
-                                            CalendarContract.ACCOUNT_TYPE_LOCAL};
-                            Cursor cursor =
-                                    getContentResolver().
-                                            query(
-                                                    CalendarContract.Calendars.CONTENT_URI,
-                                                    projection,
-                                                    selection,
-                                                    selArgs,
-                                                    null);
-                            if (cursor.moveToFirst()) {
-                                //return cursor.getLong(0);
-                            }
-                            //return -1;
-
-                            long calID = 3;
-                            long startMillis = 0;
-                            long endMillis = 0;
-                            Calendar beginTime = Calendar.getInstance();
-                            beginTime.set(2019, 2, 8, 20, 30);
-                            startMillis = beginTime.getTimeInMillis();
-                            Calendar endTime = Calendar.getInstance();
-                            endTime.set(2019, 2, 8, 21, 45);
-                            endMillis = endTime.getTimeInMillis();
-
-                            ContentResolver cr = getContentResolver();
-                            ContentValues values = new ContentValues();
-                            values.put(CalendarContract.Events.DTSTART, startMillis);
-                            values.put(CalendarContract.Events.DTEND, endMillis);
-                            values.put(CalendarContract.Events.TITLE, "Test insert events in calendar ");
-                            values.put(CalendarContract.Events.DESCRIPTION, "Description events");
-                            values.put(CalendarContract.Events.CALENDAR_ID, calID);
-                            values.put(CalendarContract.Events.EVENT_TIMEZONE, "America/Los_Angeles");
-                            Uri uri = cr.insert(CalendarContract.Events.CONTENT_URI, values);
-
-
-
-
-
-
-                            cursor = getContentResolver().query(
-                                    CalendarContract.Calendars.CONTENT_URI,
-                                    projection,
-                                    CalendarContract.Calendars.VISIBLE + " = 1",
-                                    null,
-                                    CalendarContract.Calendars._ID + " ASC");
-                            // _ID, NAMe, ACCOUNT_NAME, ACCOUNT_TYPE
-                            long calendarId;
-                            String displayName;
-                            String accountName;
-                            String accountType;
-
+                        // build request - return data
+                        String[] projection = new String[]{
+                                CalendarContract.Calendars._ID,
+                                CalendarContract.Calendars.NAME,
+                                CalendarContract.Calendars.ACCOUNT_NAME,
+                                CalendarContract.Calendars.ACCOUNT_TYPE
+                        };
+                        // query
+                        cursor = getContentResolver().query(
+                                CalendarContract.Calendars.CONTENT_URI,
+                                projection,
+                                CalendarContract.Calendars.VISIBLE + " = 1",
+                                null,
+                                CalendarContract.Calendars._ID + " ASC"
+                        );
+                        // get id of local calendar
+                        if (cursor.moveToFirst()) {
+                            do {
+                                calID = cursor.getLong(0);
+                                displayName = cursor.getString(1);
+                            } while (cursor.moveToNext());
                         }
-                    }
 
-                    @Override
-                    public void onPermissionDenied(PermissionDeniedResponse response) {
-                        // check for permanent denial of permission
-                        if (response.isPermanentlyDenied()) {
-                            // navigate user to app settings
-                        }
+
+                        // build request - search
+                        //String selection = CalendarContract.Calendars.ACCOUNT_NAME + " = ? AND " + CalendarContract.Calendars.ACCOUNT_TYPE + " = ? ";
+                        //String[] selArgs = new String[]{ "taz91coc@gmail.com", CalendarContract.ACCOUNT_TYPE_LOCAL};
+
+                        /*
+                        cursor = getContentResolver().query(
+                                CalendarContract.Calendars.CONTENT_URI,
+                                projection,
+                                selection,
+                                selArgs,
+                                null
+                        );
+*/
+
+
+                        //Date beginTimeCalendar = Calendar.getInstance().getTime();
+                        //beginTime.set(2019, 1, 10, 20, 30);
+
+                        Calendar beginTime = Calendar.getInstance();
+                        //beginTime.setTime();
+                        startMillis = beginTime.getTimeInMillis();
+                        Calendar endTime = Calendar.getInstance();
+
+                        endTime.set(2019, 1, 10, 21, 45);
+                        endMillis = endTime.getTimeInMillis();
+
+                        ContentResolver cr = getContentResolver();
+                        ContentValues values = new ContentValues();
+                        values.put(CalendarContract.Events.DTSTART, startMillis);
+                        values.put(CalendarContract.Events.DTEND, endMillis);
+                        values.put(CalendarContract.Events.TITLE, "Test01 insert events in calendar ");
+                        values.put(CalendarContract.Events.DESCRIPTION, "Description events");
+                        values.put(CalendarContract.Events.CALENDAR_ID, calID);
+                        values.put(CalendarContract.Events.EVENT_TIMEZONE, "Europe/Paris"); // America/Los_Angeles
+                        Uri uri = cr.insert(CalendarContract.Events.CONTENT_URI, values);
+
                     }
-                    @Override
-                    public void onPermissionRationaleShouldBeShown(PermissionRequest permission, PermissionToken token) {
-                        token.continuePermissionRequest();
+                }
+
+                @Override
+                public void onPermissionDenied(PermissionDeniedResponse response) {
+                    // check for permanent denial of permission
+                    if (response.isPermanentlyDenied()) {
+                        // navigate user to app settings
                     }
-                }).check();
+                }
+                @Override
+                public void onPermissionRationaleShouldBeShown(PermissionRequest permission, PermissionToken token) {
+                    token.continuePermissionRequest();
+                }
+            }).check();
     }
 
 
+    //TODO : A gicler !!
     private long getCalendarId(){
         // permission is granted, continu the traitement
         if (ActivityCompat.checkSelfPermission(MainActivity.this, WRITE_CALENDAR) == PackageManager.PERMISSION_GRANTED){
