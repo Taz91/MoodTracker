@@ -33,8 +33,8 @@ public class CustomPopupComment extends Dialog {
     public void setsTitle(String pTitle){ this.title.setText(pTitle); }
     public void setsComment(String pComment){ this.modifyComment.setHint(pComment); }
 
-    public Button getNoButton() { return noButton; }
-    public Button getYesButton(){ return yesButton;}
+    //public Button getNoButton() { return noButton; }
+    //public Button getYesButton(){ return yesButton; }
 
     public void setListener(OnPopupActionCommentListener listener) {
         this.listener = listener;

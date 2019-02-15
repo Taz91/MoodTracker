@@ -15,7 +15,6 @@ import android.provider.CalendarContract;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
@@ -105,6 +104,7 @@ public class MainActivity extends AppCompatActivity implements CustomPopupCommen
         ButterKnife.bind(this);
          // load sharedPreferences and use for history
         sharedPreferencesHistory = getBaseContext().getSharedPreferences(PREFS_HISTORY, MODE_PRIVATE);
+
         // ****************************  use when necessary to test some different situation
         //DoHistory();
         // ***************************************************************************************************
@@ -153,7 +153,6 @@ public class MainActivity extends AppCompatActivity implements CustomPopupCommen
 
     /**
      * on click, show history, based on RecyclerView.
-     *
      */
     @OnClick(R.id.btnHistory)
     void showHistory() {
@@ -312,7 +311,16 @@ public class MainActivity extends AppCompatActivity implements CustomPopupCommen
                 .putString("20190127", "3_presque en haut ")
                 .putString("20190128", "4_tout en haut !!")
                 .putString("20190130", "0_on fini en bas !!")
-
+                .putString("20190201", "0_en février c idem on commence en bas !!")
+                .putString("20190202", "1_on remontent doucement")
+                .putString("20190203", "1_j'ai mangé un kebab")
+                .putString("20190204", "2_une salade et ça repart")
+                .putString("20190206", "3_pas simple mais cela avance")
+                .putString("20190207", "4_mettre un genou à terre n'est jamais grave, ne pas tenter de se relever l'est !")
+                .putString("20190208", "0_il fait froid qd mm")
+                .putString("20190209", "2_semaine chargée")
+                .putString("20190212", "2_tjrs aussi chargée")
+                .putString("20190213", "2_faut se mettre à wordpress et je ne connais pas ...")
                 .commit();
     }
 
@@ -341,9 +349,7 @@ public class MainActivity extends AppCompatActivity implements CustomPopupCommen
         }
         //key not exist, store the mood default
         else {
-            sharedPreferencesHistory.edit()
-                    .putString(keynowFormated, index + "_" + curentComment )
-                    .commit();
+            sharedPreferencesHistory.edit().putString(keynowFormated, index + "_" + curentComment ).commit();
         }
         // after swipe mvt, apply in view the mood's choice, image and background color
         imgMood.setImageResource(tbliSmiley[index]);
@@ -389,10 +395,7 @@ public class MainActivity extends AppCompatActivity implements CustomPopupCommen
         return format.format(today);
     }
 
-    /**+
-     * ------+----
-     *
-      */
+    // PopupModifyComment - Yes / No
     @Override
     public void onYes() {
         applyComment(buildKey(),modifyCommentPopup.modifyComment.getText().toString());

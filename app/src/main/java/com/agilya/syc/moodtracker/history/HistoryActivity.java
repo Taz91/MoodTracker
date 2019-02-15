@@ -52,14 +52,15 @@ public class HistoryActivity extends AppCompatActivity {
         listDay = new ArrayList<>();
         int countItem = 0;
 
+        //Get all mood
         sharedPreferencesHistory = getBaseContext().getSharedPreferences(PREFS_HISTORY, MODE_PRIVATE);
-
         Map<String, ?> prefsMap = sharedPreferencesHistory.getAll();
         for (Map.Entry<String, ?> entry: prefsMap.entrySet()) {
             listDayTemp.add(new Item(entry.getKey(), getComment( entry.getKey() ), tbliColor[iMood] ));
         }
         //Collections.sort(listDayTemp, (Item p1, Item p2) -> p1.itemColor > p2.itemColor );
 
+        //listDayTemp full mood list, listDay contruct with full oy max 7 item
         Collections.sort(listDayTemp, Collections.reverseOrder());
         if (bFull){
             listDay = listDayTemp;
