@@ -6,14 +6,17 @@ import android.os.Bundle;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.widget.CheckBox;
 
 import com.agilya.syc.moodtracker.Item;
 import com.agilya.syc.moodtracker.R;
 import com.agilya.syc.moodtracker.RecyclerViewAdapter;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
@@ -56,7 +59,14 @@ public class HistoryActivity extends AppCompatActivity {
         sharedPreferencesHistory = getBaseContext().getSharedPreferences(PREFS_HISTORY, MODE_PRIVATE);
         Map<String, ?> prefsMap = sharedPreferencesHistory.getAll();
         for (Map.Entry<String, ?> entry: prefsMap.entrySet()) {
-            listDayTemp.add(new Item(entry.getKey(), getComment( entry.getKey() ), tbliColor[iMood] ));
+
+            Log.d("montest", entry.getKey() +" != " + buildKey());
+
+            //!"".equals(KeyDayComment)
+            //dont show current mood
+            if (!entry.getKey().equals(buildKey()) ){
+                listDayTemp.add(new Item(entry.getKey(), getComment( entry.getKey() ), tbliColor[iMood], iMood ));
+            }
         }
         //Collections.sort(listDayTemp, (Item p1, Item p2) -> p1.itemColor > p2.itemColor );
 
@@ -96,6 +106,16 @@ public class HistoryActivity extends AppCompatActivity {
             }
         }
         return Comment;
+    }
+
+    /**
+     * build the curent key for store in sharedPreferences
+     * @return the keyDay
+     */
+    private String buildKey(){
+        Date today = new Date();
+        SimpleDateFormat format = new SimpleDateFormat("yyyyMMdd");
+        return format.format(today);
     }
 
     //Checkbox to show in full mode (checked) or not (unchecked)

@@ -489,6 +489,7 @@ color error_color_material
 color faded_red
 color foreground_material_dark
 color foreground_material_light
+color gainsboro
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color light_sage
@@ -853,11 +854,13 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id commentButton
 id container
 id contentPanel
 id coordinator
 id custom
 id customPanel
+id dayTxt
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -903,6 +906,7 @@ id largeLabel
 id left
 id line1
 id line3
+id linearLayout2
 id listMode
 id listRV
 id list_item
@@ -923,8 +927,10 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id packed
+id paddingView
 id parallax
 id parent
+id parentLayout
 id parentPanel
 id parent_matrix
 id percent
@@ -1060,7 +1066,9 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout item_rv
-layout list_rv
+layout item_rv1
+layout item_rv_old
+layout item_rv_test
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action

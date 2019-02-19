@@ -1,46 +1,47 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/parentLayout"
     android:layout_width="match_parent"
-    android:layout_height="79dp"
-
-    android:background="@color/banana_yellow"
+    android:layout_height="73.28dp"
+    android:layout_weight="1"
+    android:background="@color/light_sage"
     android:orientation="horizontal">
 
     <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="1260px"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        android:orientation="horizontal">
+        android:layout_weight="1"
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/item_day_rv"
-            android:layout_width="wrap_content"
+            android:id="@+id/dayTxt"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="5dp"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:text="Textview1"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            />
 
 
         <ImageButton
-            android:id="@+id/item_comment_rv"
+            android:id="@+id/commentButton"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_gravity="right"
             android:layout_marginRight="10dp"
+            android:layout_gravity="right"
             android:background="@android:color/transparent"
             android:src="@drawable/ic_comment_black_24dp" />
 
     </LinearLayout>
 
+
     <View
         android:id="@+id/paddingView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="4"
         android:background="@color/gainsboro" />
 
 </LinearLayout>
-
