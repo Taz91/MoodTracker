@@ -656,9 +656,9 @@ public final class R {
         public static final int left = 0x7f080065;
         public static final int line1 = 0x7f080066;
         public static final int line3 = 0x7f080067;
-        public static final int listMode = 0x7f080069;
-        public static final int list_item = 0x7f08006b;
-        public static final int message = 0x7f08006e;
+        public static final int listMode = 0x7f080068;
+        public static final int list_item = 0x7f08006a;
+        public static final int message = 0x7f08006d;
         public static final int multiply = 0x7f080072;
         public static final int none = 0x7f080077;
         public static final int normal = 0x7f080078;

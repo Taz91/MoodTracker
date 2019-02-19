@@ -60,9 +60,8 @@ public class HistoryActivity extends AppCompatActivity {
         Map<String, ?> prefsMap = sharedPreferencesHistory.getAll();
         for (Map.Entry<String, ?> entry: prefsMap.entrySet()) {
 
-            Log.d("montest", entry.getKey() +" != " + buildKey());
+            //Log.d("montest", entry.getKey() +" != " + buildKey());
 
-            //!"".equals(KeyDayComment)
             //dont show current mood
             if (!entry.getKey().equals(buildKey()) ){
                 listDayTemp.add(new Item(entry.getKey(), getComment( entry.getKey() ), tbliColor[iMood], iMood ));

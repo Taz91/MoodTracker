@@ -17,40 +17,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54339050-8356-4742-8491-03f49e065136" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_rv_old.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_rv_test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/compat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/compat/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/constraint/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/constraint/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/coreui/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/coreui/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/coreutils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/coreutils/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/fragment/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/fragment/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/graphics/drawable/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/graphics/drawable/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/graphics/drawable/animated/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/graphics/drawable/animated/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/v7/appcompat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/v7/appcompat/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/agilya/syc/moodtracker/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/agilya/syc/moodtracker/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split_list/debug/splitsDiscoveryTaskDebug/split-list.gson" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/RecyclerViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/RecyclerViewAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/ViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/ViewHolder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/history/HistoryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/history/HistoryActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_history.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_rv.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_rv.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_rv.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_rv1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +95,7 @@
     <session id="1721834586">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="36" />
+          <entry key="project.closed" value="37" />
           <entry key="project.open.time.10" value="7" />
           <entry key="project.open.time.11" value="7" />
           <entry key="project.open.time.12" value="1" />
@@ -127,21 +110,21 @@
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.52" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="2" />
-          <entry key="java" value="10313" />
+          <entry key="java" value="10353" />
           <entry key="xml" value="1393" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="10313" />
+          <entry key="JAVA" value="10353" />
           <entry key="XML" value="1393" />
         </counts>
       </usages-collector>
@@ -149,7 +132,7 @@
         <counts>
           <entry key="dex" value="1" />
           <entry key="gradle" value="5" />
-          <entry key="java" value="124" />
+          <entry key="java" value="125" />
           <entry key="png" value="2" />
           <entry key="xml" value="99" />
         </counts>
@@ -158,7 +141,7 @@
         <counts>
           <entry key="Groovy" value="5" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="124" />
+          <entry key="JAVA" value="125" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="99" />
         </counts>
@@ -167,16 +150,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4128">
-              <caret line="372" column="7" selection-start-line="372" selection-start-column="7" selection-end-line="372" selection-end-column="7" />
+            <state relative-caret-position="1728">
+              <caret line="108" column="10" selection-start-line="108" selection-start-column="10" selection-end-line="108" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#4697:5287" />
+                <element signature="method#loadModifyComment#0;class#MainActivity#0" />
                 <element signature="method#showHistory#0;class#MainActivity#0" />
-                <element signature="method#removeHistory#0;class#MainActivity#0" />
+                <element signature="method#eventInCalendar#0;class#MainActivity#0" />
                 <element signature="method#DoHistory#0;class#MainActivity#0" />
                 <element signature="method#applyMoodDay#0;class#MainActivity#0" />
                 <element signature="method#applyComment#0;class#MainActivity#0" />
@@ -187,20 +171,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/RecyclerViewAdapter.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/history/HistoryActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+            <state relative-caret-position="-697">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <folding>
+                <element signature="method#getComment#0;class#HistoryActivity#0" />
+                <element signature="method#buildKey#0;class#HistoryActivity#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/ViewHolder.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/RecyclerViewAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="672">
+              <caret line="44" column="61" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -209,10 +197,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/ViewHolder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding>
+                <element signature="e#492#493#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -246,6 +246,7 @@
       <find>lay</find>
       <find>eq</find>
       <find>linea</find>
+      <find>log.d</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -2539,20 +2540,20 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/CustomPopupComment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_rv_01.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_rv_test.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/Item.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/history/HistoryActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/Utils.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_history.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_rv.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_rv1.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_rv.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/ViewHolder.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/RecyclerViewAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/Item.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/history/HistoryActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/ViewHolder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -2589,18 +2590,25 @@
           <expand>
             <path>
               <item name="MoodTracker" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
             <path>
-              <item name="MoodTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MoodTracker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="MoodTracker" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="MoodTracker" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="moodtracker" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MoodTracker" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="moodtracker" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="history" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2644,6 +2652,17 @@
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MoodTracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MoodTracker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2829,7 +2848,7 @@
   <component name="ToolWindowManager">
     <frame x="-2541" y="-277" width="1719" height="1385" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10005992" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10005992" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Build Variants" order="3" side_tool="true" />
@@ -2839,13 +2858,13 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882413" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32908705" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49310964" weight="0.328594" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.328594" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.40686783" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49610546" visible="true" weight="0.36966825" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50389457" side_tool="true" weight="0.36966825" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4955063" weight="0.36966825" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50689036" side_tool="true" visible="true" weight="0.328594" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32913387" />
       <window_info anchor="bottom" id="Logcat" order="10" sideWeight="0.49882767" weight="0.33714285" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32913387" />
@@ -3284,18 +3303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/history/HistoryActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="82" column="13" lean-forward="true" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getComment#0;class#HistoryActivity#0" />
-            <element signature="method#buildKey#0;class#HistoryActivity#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_rv.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="656">
@@ -3304,20 +3311,23 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/history/HistoryActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4128">
-          <caret line="372" column="7" selection-start-line="372" selection-start-column="7" selection-end-line="372" selection-end-column="7" />
+        <state relative-caret-position="-697">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="method#getComment#0;class#HistoryActivity#0" />
+            <element signature="method#buildKey#0;class#HistoryActivity#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/RecyclerViewAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="44" column="61" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#4697:5287" />
-            <element signature="method#showHistory#0;class#MainActivity#0" />
-            <element signature="method#removeHistory#0;class#MainActivity#0" />
-            <element signature="method#DoHistory#0;class#MainActivity#0" />
-            <element signature="method#applyMoodDay#0;class#MainActivity#0" />
-            <element signature="method#applyComment#0;class#MainActivity#0" />
-            <element signature="method#getComment#0;class#MainActivity#0" />
-            <element signature="method#onNo#0;class#MainActivity#0" />
           </folding>
         </state>
       </provider>
@@ -3325,24 +3335,36 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/ViewHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#492#493#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/RecyclerViewAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/agilya/syc/moodtracker/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        <state relative-caret-position="1728">
+          <caret line="108" column="10" selection-start-line="108" selection-start-column="10" selection-end-line="108" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#4697:5287" />
+            <element signature="method#loadModifyComment#0;class#MainActivity#0" />
+            <element signature="method#showHistory#0;class#MainActivity#0" />
+            <element signature="method#eventInCalendar#0;class#MainActivity#0" />
+            <element signature="method#DoHistory#0;class#MainActivity#0" />
+            <element signature="method#applyMoodDay#0;class#MainActivity#0" />
+            <element signature="method#applyComment#0;class#MainActivity#0" />
+            <element signature="method#getComment#0;class#MainActivity#0" />
+            <element signature="method#onNo#0;class#MainActivity#0" />
+          </folding>
         </state>
       </provider>
     </entry>

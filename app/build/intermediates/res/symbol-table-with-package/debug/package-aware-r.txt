@@ -906,7 +906,6 @@ id largeLabel
 id left
 id line1
 id line3
-id linearLayout2
 id listMode
 id listRV
 id list_item
@@ -916,6 +915,7 @@ id message
 id middle
 id mini
 id modifyComment
+id moodLayout
 id multiply
 id myRecyclerView
 id navigation_header_container

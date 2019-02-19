@@ -320,7 +320,12 @@ public class MainActivity extends AppCompatActivity implements CustomPopupCommen
                 .putString("20190208", "0_il fait froid qd mm")
                 .putString("20190209", "2_semaine chargée")
                 .putString("20190212", "2_tjrs aussi chargée")
-                .putString("20190213", "2_faut se mettre à wordpress et je ne connais pas ...")
+                .putString("20190213", "2_data de test 01")
+                .putString("20190218", "0_data de test 02")
+                .putString("20190217", "4_data de test 04")
+                .putString("20190216", "1_data de test 05")
+                .putString("20190215", "2_data de test 06")
+                .putString("20190214", "3_data de test 07")
                 .commit();
     }
 

@@ -38,24 +38,14 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<ViewHolder> {
     public void onBindViewHolder(@NonNull final ViewHolder holder, int position) {
         try {
             final Item monItem = itemList.get(position);
-            WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
-            Display display = wm.getDefaultDisplay();
-            Point size = new Point();
-            display.getSize(size);
-            int mWidth = size.x;
-            int mWidthMin = mWidth/2;
-            int moodUnit = (mWidth - mWidthMin )/4;
-            int resultat;
+
             //TODO : mettre les textes dans les values !!
             SimpleDateFormat formater = new SimpleDateFormat("yyyyMMdd");
             Date maDate = formater.parse( monItem.getItemDay());
             holder.itemDay.setText(Utils.formatDate(maDate));
-            holder.itemView.setBackgroundResource( monItem.getItemColor());
+            holder.moodLayout.setBackgroundResource( monItem.getItemColor());
             holder.itemComment.setVisibility( TextUtils.isEmpty(monItem.getItemComment()) ? View.INVISIBLE:View.VISIBLE );
-
-            //pour la view qui créer le padding
-            resultat = mWidthMin +moodUnit*(monItem.getItemMood());
-            holder.linearLayout2.getLayoutParams().width= resultat;
+            holder.moodLayout.getLayoutParams().width = getMoodWidth(monItem);
 
             holder.itemComment.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -66,6 +56,16 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<ViewHolder> {
         } catch (ParseException e) {
             e.printStackTrace();
         }
+    }
+
+    private int getMoodWidth(Item item) {
+        WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+        Display display = wm.getDefaultDisplay();
+        Point size = new Point();
+        display.getSize(size);
+        int mWidth = size.x;
+        int moodUnit = mWidth / 5;
+        return moodUnit * (item.getItemMood() + 1);
     }
 
     @Override

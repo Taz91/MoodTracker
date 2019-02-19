@@ -14,10 +14,6 @@ public class Item implements Comparable<Item>{
     }
 
     public String getItemDay() {
-
-
-
-
         return itemDay;
     }
     public String getItemComment() { return itemComment; }
